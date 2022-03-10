@@ -14,7 +14,7 @@ const Product = () => (
         {products.map((item, index) => (
 
 
-            <div key={index} className="col-lg-3 col-md-6">
+            <div key={index} className="col-lg-4 col-md-6">
                 <div className="product__item">
                     <div className="product__item__pic">
                         <img className="product__item__pic" src={item} alt="img"/>
