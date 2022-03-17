@@ -1,5 +1,8 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
+
+app.use(cors())
 
 const product = require('./Routes/product')
 app.use('/product/api/', product)
